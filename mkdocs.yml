@@ -1,0 +1,54 @@
+site_name: HPO Workshop Modern
+site_url: https://your-username.github.io/hpo-workshop/
+site_description: A modern guide to the Human Phenotype Ontology.
+
+theme:
+  name: material
+  palette:
+    # Scientific/Medical Blue theme
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs          # Top-level navigation
+    - navigation.sections      # Grouped sidebar
+    - navigation.expand        # Keep sidebar open
+    - content.code.copy        # Copy buttons for exercises
+    - toc.follow               # Table of contents follows scroll
+
+markdown_extensions:
+  - admonition                 # For Exercise/Hint boxes
+  - pymdownx.details           # Collapsible "Answer" blocks
+  - pymdownx.superfences       # Better code blocks
+  - pymdownx.tabbed:           # Tabbed content for different OS instructions
+      alternate_style: true 
+  - attr_list                  # For image alignment
+
+plugins:
+  - search
+  - minify:
+      minify_html: true
+  - git-revision-date-localized:
+      type: date
+
+nav:
+  - Home: index.md
+  - Introduction:
+      - Overview: introduction/index.md
+  - Topics:
+      - Introduction: topics/introduction.md
+      - Phenomizer: topics/phenomizer.md
+      - Encoding Clinical Data: topics/encoding-clinical.md
+      - Exomiser: topics/exomiser.md
+  - Exercises:
+      - Phenomizer Exercise: exercises/ex1_phenomizer.md
+      - Exomiser Exercise: exercises/ex2_exomiser.md
