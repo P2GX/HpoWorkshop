@@ -4,6 +4,8 @@ site_description: A modern guide to the Human Phenotype Ontology.
 
 theme:
   name: material
+  logo: img/hpo-logo.png      # Logo in the top-left navigation bar
+  favicon: img/favicon.png
   palette:
     # Scientific/Medical Blue theme
     - scheme: default
@@ -24,6 +26,9 @@ theme:
     - navigation.expand        # Keep sidebar open
     - content.code.copy        # Copy buttons for exercises
     - toc.follow               # Table of contents follows scroll
+    - search.highlight     # Highlights searched terms on the page
+    - search.suggest       # Shows search suggestions in the dropdown
+    - search.share         # Generates a link to the specific search
 
 markdown_extensions:
   - admonition                 # For Exercise/Hint boxes
@@ -36,8 +41,13 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
-  - pymdownx.superfences         # Needed for complex layouts
   - pymdownx.magiclink
+
+extra_css:
+  - stylesheets/extra.css
+
+repo_name: HpoWorkshop
+repo_url: https://github.com/P2GX/HpoWorkshop
 
 plugins:
   - search
@@ -45,6 +55,10 @@ plugins:
       minify_html: true
   - git-revision-date-localized:
       type: date
+
+not_in_nav: |
+  phenotyping/encoding-answers.md
+  phenotyping/hpo-answers.md
 
 nav:
   - Home: index.md
@@ -54,7 +68,6 @@ nav:
   - 2. Clinical Phenotyping:
       - Navigating the HPO website: phenotyping/hpobrowser.md
       - HPO Browsers: phenotyping/browsers.md
-      - Encoding Clinical Data: phenotyping/encoding-clinical.md
-  - Exercises:
-      - Phenomizer Exercise: exercises/ex1_phenomizer.md
-      - Exomiser Exercise: exercises/ex2_exomiser.md
+      - Encoding Clinical Data: phenotyping/encoding.md
+  - 3. Phenopackets:
+      - Overview: phenopackets/index.md

@@ -55,3 +55,5 @@ Use these links to jump to the entry for **Sutural Cataract (HP:0010695)** in ea
 * [View in HPO Browser](https://hpo.jax.org/app/browse/term/HP:0010695){:target="_blank"}
 * [View in EBI OLS](https://www.ebi.ac.uk/ols/ontologies/hp/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FHP_0010695){:target="_blank"}
 * [View in Ontobee](http://www.ontobee.org/ontology/HP?iri=http://purl.obolibrary.org/obo/HP_0010695){:target="_blank"}
+
+**Next Module:** [Encoding clinical data](encoding.md){ .md-button .md-button--primary }

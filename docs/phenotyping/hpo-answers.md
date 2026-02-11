@@ -13,7 +13,7 @@ To determine the number of genes associated with [Pulmonary insufficiency (HP:00
 
 When you download the Excel file, your data should look similar to the screenshot below. Each row represents a unique gene-disease-phenotype relationship.
 
-![Pulmonary insufficiency - associated genes](img/pulmonary-insufficiency-genes.png){ width="800" }
+![Pulmonary insufficiency - associated genes](../img/pulmonary-insufficiency-genes.png){ width="800" }
 
 ---
 
@@ -25,7 +25,7 @@ While you can click through the parents on the HPO website, using the **Ontology
 
 
 
-![OLS view of sutural cataract](img/sutural-cataract-ols.png){ width="800" }
+![OLS view of sutural cataract](../img/sutural-cataract-ols.png){ width="800" }
 
 !!! success "Answer"
     There are **7 links** (or "hops") between *Sutural cataract* and *Phenotypic abnormality*. Therefore, we say the **depth** of this term is **7**.
