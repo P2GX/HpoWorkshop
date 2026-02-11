@@ -1,39 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://your-username.github.io/hpo-workshop/</loc>
+         <loc>https://github.com/P2GX/HpoWorkshop/</loc>
          <lastmod>2026-02-11</lastmod>
     </url>
     <url>
-         <loc>https://your-username.github.io/hpo-workshop/introduction/</loc>
+         <loc>https://github.com/P2GX/HpoWorkshop/introduction/</loc>
          <lastmod>2026-02-11</lastmod>
     </url>
     <url>
-         <loc>https://your-username.github.io/hpo-workshop/introduction/reading/</loc>
+         <loc>https://github.com/P2GX/HpoWorkshop/introduction/ontology/</loc>
          <lastmod>2026-02-11</lastmod>
     </url>
     <url>
-         <loc>https://your-username.github.io/hpo-workshop/phenopackets/</loc>
+         <loc>https://github.com/P2GX/HpoWorkshop/introduction/reading/</loc>
          <lastmod>2026-02-11</lastmod>
     </url>
     <url>
-         <loc>https://your-username.github.io/hpo-workshop/phenotyping/browsers/</loc>
+         <loc>https://github.com/P2GX/HpoWorkshop/phenopackets/</loc>
          <lastmod>2026-02-11</lastmod>
     </url>
     <url>
-         <loc>https://your-username.github.io/hpo-workshop/phenotyping/encoding-answers/</loc>
+         <loc>https://github.com/P2GX/HpoWorkshop/phenopackets/phenoboard/</loc>
          <lastmod>2026-02-11</lastmod>
     </url>
     <url>
-         <loc>https://your-username.github.io/hpo-workshop/phenotyping/encoding/</loc>
+         <loc>https://github.com/P2GX/HpoWorkshop/phenotyping/browsers/</loc>
          <lastmod>2026-02-11</lastmod>
     </url>
     <url>
-         <loc>https://your-username.github.io/hpo-workshop/phenotyping/hpo-answers/</loc>
+         <loc>https://github.com/P2GX/HpoWorkshop/phenotyping/encoding-answers/</loc>
          <lastmod>2026-02-11</lastmod>
     </url>
     <url>
-         <loc>https://your-username.github.io/hpo-workshop/phenotyping/hpobrowser/</loc>
+         <loc>https://github.com/P2GX/HpoWorkshop/phenotyping/encoding/</loc>
+         <lastmod>2026-02-11</lastmod>
+    </url>
+    <url>
+         <loc>https://github.com/P2GX/HpoWorkshop/phenotyping/hpo-answers/</loc>
+         <lastmod>2026-02-11</lastmod>
+    </url>
+    <url>
+         <loc>https://github.com/P2GX/HpoWorkshop/phenotyping/hpobrowser/</loc>
          <lastmod>2026-02-11</lastmod>
     </url>
 </urlset>
