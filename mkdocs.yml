@@ -73,5 +73,7 @@ nav:
   - 3. Phenopackets:
       - Overview: phenopackets/index.md
       - Phenoboard: phenopackets/phenoboard.md
+      - Example: phenopackets/example.md
   - 4. Exomiser:
       - Overview: exomiser/index.md
+      - Command line: exomiser/cmdline.md
