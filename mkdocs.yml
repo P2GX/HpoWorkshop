@@ -42,10 +42,11 @@ plugins:
 
 nav:
   - Home: index.md
-  - Introduction:
+  - 1. Introduction:
       - Overview: introduction/index.md
-  - Topics:
-      - Introduction: topics/introduction.md
+  - 2. Clinical Phenotyping:
+      - Finding terms: phenotyping/hpobrowser.md
+      - HPO Browsers terms: phenotyping/browsers.md
       - Phenomizer: topics/phenomizer.md
       - Encoding Clinical Data: topics/encoding-clinical.md
       - Exomiser: topics/exomiser.md
