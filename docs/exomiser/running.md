@@ -1,6 +1,25 @@
-# Running Exomiser with a Phenopacket
+# ▶️ Running Exomiser with a Phenopacket
 
-We created a phenopacket for Pfeiffer syndrome in the [Phenoboard module](../phenopackets/phenoboard.md). We will now use this to run Exomiser.
+In the previous step, we created a phenopacket for **Pfeiffer syndrome** using the  
+[Phenoboard module](../phenopackets/phenoboard.md).  
+We will now use this phenopacket as input for an Exomiser analysis.
+
+## 🚀 Execute Exomiser
+
+Run the following command from your terminal:
+
+```bash
+java -jar exomiser-cli-14.1.0.jar \
+  --sample path/to/phenopacket.json \
+  --vcf path/to/genome.vcf \
+  --assembly hg19
+```
 
 
-java -jar exomiser-cli-14.0.0.jar --sample path/to/phenopacket.json --vcf path/to/genome.vcf --assembly hg38
+This should run for about 15 seconds and then produce an HTML output file. 
+
+
+
+!!! note "Interpreting Exomiser output"
+
+    We will discuss how to evaluate the results in detail during the workshop. 
