@@ -77,3 +77,4 @@ nav:
   - 4. Exomiser:
       - Overview: exomiser/index.md
       - Command line: exomiser/cmdline.md
+      - Settings: exomiser/settings.md
