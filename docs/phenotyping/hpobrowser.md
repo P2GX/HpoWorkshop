@@ -6,13 +6,13 @@ This page contains a series of exercises that illustrate how to find information
 
 Go to the [HPO Start Page](https://hpo.jax.org/app/){:target="_blank"}. You will find a search box that offers autocomplete functionality.
 
-![Main search field](img/hpo-main-search.png){width="700"}
+![Main search field](../img/hpo-main-search.png){width="700"}
 
 You can search for HPO terms, diseases, and genes. Let's start by searching for **Pulmonary insufficiency**. Enter it in the search window and click on the link. You should arrive at the page for [Pulmonary insufficiency (HP:0010444)](https://hpo.jax.org/app/browse/term/HP:0010444){:target="_blank"}.
 
 The page offers several components. The core information about the term is shown in the header box.
 
-![Pulmonary insufficiency](img/pulmonary-insufficiency.png){width="800"}
+![Pulmonary insufficiency](../img/pulmonary-insufficiency.png){width="800"}
 
 ### Key Term Elements
 * **Primary Identifier:** `HP:0010444`
@@ -22,7 +22,7 @@ The page offers several components. The core information about the term is shown
 
 Most HPO terms are used to annotate one or more diseases. In this case, Pulmonary insufficiency is used to annotate a number of diseases shown in the **Disease Associations** tab.
 
-![Pulmonary insufficiency diseases](img/pulmonary-insufficiency-diseases.png){width="800"}
+![Pulmonary insufficiency diseases](../img/pulmonary-insufficiency-diseases.png){width="800"}
 
 The **Gene Associations** tab shows the genes that are associated with these diseases.
 
@@ -69,7 +69,7 @@ The HPO is constructed to capture medical knowledge in this hierarchical way. Th
     **Alternative Method:**
     Use the [EBI Ontology Lookup Service (OLS)](https://www.ebi.ac.uk/ols/ontologies/hp/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FHP_0010695){:target="_blank"}. This browser shows the entire path from the selected term to the root in one view, allowing you to count the links directly.
 
-![Hierarchy of term sutural cataract](img/sutural-cataract-hierarchy.png){width="800"}
+![Hierarchy of term sutural cataract](../img/sutural-cataract-hierarchy.png){width="800"}
 
 ---
 
@@ -82,4 +82,4 @@ In this module, you have learned to:
 * Navigate the hierarchy to determine a term's **depth**.
 
 ??? tip "Stuck on an exercise?"
-    If you had trouble with any of these tasks, you can check the [Exercise Answers](../navigation.md) page for a full walkthrough.
+    If you had trouble with any of these tasks, you can check the [Exercise Answers](./hpo-answers.md) page for a full walkthrough.

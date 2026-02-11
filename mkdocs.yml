@@ -32,6 +32,12 @@ markdown_extensions:
   - pymdownx.tabbed:           # Tabbed content for different OS instructions
       alternate_style: true 
   - attr_list                  # For image alignment
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.superfences         # Needed for complex layouts
+  - pymdownx.magiclink
 
 plugins:
   - search
@@ -44,12 +50,11 @@ nav:
   - Home: index.md
   - 1. Introduction:
       - Overview: introduction/index.md
+      - Background Reading: introduction/reading.md
   - 2. Clinical Phenotyping:
-      - Finding terms: phenotyping/hpobrowser.md
-      - HPO Browsers terms: phenotyping/browsers.md
-      - Phenomizer: topics/phenomizer.md
-      - Encoding Clinical Data: topics/encoding-clinical.md
-      - Exomiser: topics/exomiser.md
+      - Navigating the HPO website: phenotyping/hpobrowser.md
+      - HPO Browsers: phenotyping/browsers.md
+      - Encoding Clinical Data: phenotyping/encoding-clinical.md
   - Exercises:
       - Phenomizer Exercise: exercises/ex1_phenomizer.md
       - Exomiser Exercise: exercises/ex2_exomiser.md

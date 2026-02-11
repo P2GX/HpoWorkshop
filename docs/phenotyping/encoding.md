@@ -39,6 +39,6 @@ doc2hpo has a nice online tutoral with more information about how to use the too
 In this module, you have practiced how to extract HPO terms from clinical texts. We have used published case reports to demonstrate the process. Analogous 
 steps would be performed for real clinical data. 
 
-If you had trouble with any of the exercises, see the [hints and answers](encoding-answers.md)..
+If you had trouble with any of the exercises, see the [hints and answers](encoding-answers.md).
 
 
