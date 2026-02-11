@@ -21,8 +21,6 @@ The GA4GH Phenopacket Schema is a standard for sharing disease and phenotype inf
     * **Interpretation** & **Biosample**
     * **PhenotypicFeature** & **Measurement**
     * **MedicalAction** & **Files**
-    
-    Each of these modules is discussed in detail within this article. A detailed version of the schema, including elements from VRS/VRSATILE, is shown in the reference documentation.
     {: .small-text }
 
 <style>
@@ -40,7 +38,7 @@ The PhenotypicFeature is the central element of the Phenopacket Schema. In essen
 A PhenotypicFeature can be used to describe each phenotypic feature (often, but not necessarily, clinical abnormalities) including signs and symptoms, laboratory findings, imaging, and electrophysiological results, along with modifier and qualifier concepts. Each phenotypic feature is described using an ontology term. One can indicate whether a certain abnormality was excluded during the diagnostic process (e.g., whether a morphological cardiac defect was excluded by echocardiography), or optionally use other HPO terms to denote the severity of the phenotypic feature or add other modifiers that describe the frequency (e.g., number of occurrences of seizures per week), laterality (e.g., unilateral), or another pattern of a certain phenotypic feature in the patient being described. Finally, the onset (and if applicable the resolution) of specific features can be indicated .
 
 
-!!! abstract "Figure 1: PhenotypeFeature"
+!!! abstract "Figure 2: PhenotypeFeature"
     ![Phenopacket Schema Overview](../img/pfeature.png){ align=center }
     
     **PhenotypeFeature overview.** The PhenotypeFeature of the Phenopacket Schema has fields for specifying:
@@ -48,9 +46,9 @@ A PhenotypicFeature can be used to describe each phenotypic feature (often, but 
     * **type**: An HPO term
     * **excluded**: If this is set to true, it means that the HPO term was explicitly excluded by clinical examination or some other diagnostic modality.
     * **Severity** Optionally, a term from the HPO [Severity subontology](https://hpo.jax.org/browse/term/HP:0012824){:target="_blank"} can be added
-    * **Modifier** & Optionally, one or more terms from the HPO [Clinical modifier `HP:0012823` subontology](https://hpo.jax.org/browse/term/HP:0012823) can be added
-    
-    Each of these modules is discussed in detail within this article. A detailed version of the schema, including elements from VRS/VRSATILE, is shown in the reference documentation.
+    * **Modifier**: Optionally, one or more terms from the HPO [Clinical modifier `HP:0012823` subontology](https://hpo.jax.org/browse/term/HP:0012823) can be added
+    * **Onset**: The age at which the clinical manifestation represented by the HPO term first occured in the individual.
+    * **Resolution**: Optionally, the age at which the clinical manifestation resolved
     {: .small-text }
 
 <style>
@@ -66,17 +64,15 @@ A PhenotypicFeature can be used to describe each phenotypic feature (often, but 
 ## Phenopackets Ecosystem
 
 
-!!! abstract "Figure 1: Phenopacket Ecosystem"
+!!! abstract "Figure 3: Phenopacket Ecosystem"
     ![Phenopacket Schema Overview](../img/ecosystem.png){ align=center }
     
-    **Phenopacket Schema overview.** The GA4GH Phenopacket Schema is a hierarchical structure that consists of two required fields, `id` and `MetaData`, as well as eight optional fields:
+    **Phenopacket Ecosystem.** The Phenopacket Schema was developed as a rosetta stone that connects many different clinical data sources and provides a common reference point for analysis software:
     
-    * **Individual** & **Disease**
-    * **Interpretation** & **Biosample**
-    * **PhenotypicFeature** & **Measurement**
-    * **MedicalAction** & **Files**
-    
-    Each of these modules is discussed in detail within this article. A detailed version of the schema, including elements from VRS/VRSATILE, is shown in the reference documentation.
+    * **Providers**: Different data entry tools can capture data from sources including EHRs, Patient-facing apps, text-mining, and clinical data entry apps
+    * **Ingest methods**: Software tools to transform data from sources (ETL)
+    * **Use cases**: support genomic diagnostics, stratification, natural history studies, treanslational bioinformatics, data exchange.
+    * **Users**: A range of users in academic and commercial settings
     {: .small-text }
 
 <style>

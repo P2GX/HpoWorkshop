@@ -1,6 +1,6 @@
-site_name: HPO Workshop Modern
-site_url: https://your-username.github.io/hpo-workshop/
-site_description: A modern guide to the Human Phenotype Ontology.
+site_name: HPO Workshop
+site_url: https://github.com/P2GX/HpoWorkshop
+site_description: Introduction to the Human Phenotype Ontology (HPO) and HPO Applications
 
 theme:
   name: material
@@ -65,9 +65,13 @@ nav:
   - 1. Introduction:
       - Overview: introduction/index.md
       - Background Reading: introduction/reading.md
+      - What is an ontology?: introduction/ontology.md
   - 2. Clinical Phenotyping:
       - Navigating the HPO website: phenotyping/hpobrowser.md
       - HPO Browsers: phenotyping/browsers.md
       - Encoding Clinical Data: phenotyping/encoding.md
   - 3. Phenopackets:
       - Overview: phenopackets/index.md
+      - Phenoboard: phenopackets/phenoboard.md
+  - 4. Exomiser:
+      - Overview: exomiser/index.md
