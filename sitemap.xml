@@ -2,66 +2,78 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://github.com/P2GX/HpoWorkshop/</loc>
-         <lastmod>2026-02-11</lastmod>
+         <lastmod>2026-02-12</lastmod>
     </url>
     <url>
          <loc>https://github.com/P2GX/HpoWorkshop/exomiser/</loc>
-         <lastmod>2026-02-11</lastmod>
+         <lastmod>2026-02-12</lastmod>
     </url>
     <url>
          <loc>https://github.com/P2GX/HpoWorkshop/exomiser/cmdline/</loc>
-         <lastmod>2026-02-11</lastmod>
+         <lastmod>2026-02-12</lastmod>
+    </url>
+    <url>
+         <loc>https://github.com/P2GX/HpoWorkshop/exomiser/java/</loc>
+         <lastmod>2026-02-12</lastmod>
     </url>
     <url>
          <loc>https://github.com/P2GX/HpoWorkshop/exomiser/running/</loc>
-         <lastmod>2026-02-11</lastmod>
+         <lastmod>2026-02-12</lastmod>
     </url>
     <url>
          <loc>https://github.com/P2GX/HpoWorkshop/exomiser/settings/</loc>
-         <lastmod>2026-02-11</lastmod>
+         <lastmod>2026-02-12</lastmod>
     </url>
     <url>
          <loc>https://github.com/P2GX/HpoWorkshop/introduction/</loc>
-         <lastmod>2026-02-11</lastmod>
+         <lastmod>2026-02-12</lastmod>
+    </url>
+    <url>
+         <loc>https://github.com/P2GX/HpoWorkshop/introduction/annotation/</loc>
+         <lastmod>2026-02-12</lastmod>
+    </url>
+    <url>
+         <loc>https://github.com/P2GX/HpoWorkshop/introduction/maxo/</loc>
+         <lastmod>2026-02-12</lastmod>
     </url>
     <url>
          <loc>https://github.com/P2GX/HpoWorkshop/introduction/ontology/</loc>
-         <lastmod>2026-02-11</lastmod>
+         <lastmod>2026-02-12</lastmod>
     </url>
     <url>
          <loc>https://github.com/P2GX/HpoWorkshop/introduction/reading/</loc>
-         <lastmod>2026-02-11</lastmod>
+         <lastmod>2026-02-12</lastmod>
     </url>
     <url>
          <loc>https://github.com/P2GX/HpoWorkshop/phenopackets/</loc>
-         <lastmod>2026-02-11</lastmod>
+         <lastmod>2026-02-12</lastmod>
     </url>
     <url>
          <loc>https://github.com/P2GX/HpoWorkshop/phenopackets/example/</loc>
-         <lastmod>2026-02-11</lastmod>
+         <lastmod>2026-02-12</lastmod>
     </url>
     <url>
          <loc>https://github.com/P2GX/HpoWorkshop/phenopackets/phenoboard/</loc>
-         <lastmod>2026-02-11</lastmod>
+         <lastmod>2026-02-12</lastmod>
     </url>
     <url>
          <loc>https://github.com/P2GX/HpoWorkshop/phenotyping/browsers/</loc>
-         <lastmod>2026-02-11</lastmod>
+         <lastmod>2026-02-12</lastmod>
     </url>
     <url>
          <loc>https://github.com/P2GX/HpoWorkshop/phenotyping/encoding-answers/</loc>
-         <lastmod>2026-02-11</lastmod>
+         <lastmod>2026-02-12</lastmod>
     </url>
     <url>
          <loc>https://github.com/P2GX/HpoWorkshop/phenotyping/encoding/</loc>
-         <lastmod>2026-02-11</lastmod>
+         <lastmod>2026-02-12</lastmod>
     </url>
     <url>
          <loc>https://github.com/P2GX/HpoWorkshop/phenotyping/hpo-answers/</loc>
-         <lastmod>2026-02-11</lastmod>
+         <lastmod>2026-02-12</lastmod>
     </url>
     <url>
          <loc>https://github.com/P2GX/HpoWorkshop/phenotyping/hpobrowser/</loc>
-         <lastmod>2026-02-11</lastmod>
+         <lastmod>2026-02-12</lastmod>
     </url>
 </urlset>
