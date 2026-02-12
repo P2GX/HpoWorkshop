@@ -13,12 +13,12 @@
 - Robinson PN *et al.* (2014)  
   *Improved exome prioritization of disease genes through cross-species phenotype comparison.*  
   **Genome Research** 24(2):340-348.  
-  [PMID:24162188](https://pubmed.ncbi.nlm.nih.gov/24162188/)
+  [:material-open-in-new: PMID:24162188](https://pubmed.ncbi.nlm.nih.gov/24162188/){:target="_blank" .md-button }
 
 - Smedley D (2015)  
   *Next-generation diagnostics and disease-gene discovery with the Exomiser.*  
   **Nature Protocols** 10(12):2004-2015.  
-  [PMID:26562621](https://pubmed.ncbi.nlm.nih.gov/26562621/)
+  [:material-open-in-new: PMID:26562621](https://pubmed.ncbi.nlm.nih.gov/26562621/){:target="_blank" .md-button }
 
 ---
 
@@ -46,6 +46,7 @@ across human and model-organism data.
 A demo version of Exomiser is available here:
 
 👉 https://exomiser.monarchinitiative.org/exomiser/
+
 
 ---
 
@@ -92,3 +93,4 @@ Consider:
 - Mode of inheritance
 - Gene–disease associations
 
+**Next Module:** [Running Exomiser from command line](./cmdline.md){ .md-button .md-button--primary }

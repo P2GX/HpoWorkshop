@@ -66,6 +66,8 @@ nav:
       - Overview: introduction/index.md
       - Background Reading: introduction/reading.md
       - What is an ontology?: introduction/ontology.md
+      - Compuational disease models: introduction/annotation.md
+      - MAxO: introduction/maxo.md
   - 2. Clinical Phenotyping:
       - Navigating the HPO website: phenotyping/hpobrowser.md
       - HPO Browsers: phenotyping/browsers.md
@@ -77,5 +79,6 @@ nav:
   - 4. Exomiser:
       - Overview: exomiser/index.md
       - Command line: exomiser/cmdline.md
+      - Java: exomiser/java.md
       - Settings: exomiser/settings.md
       - Running Exomiser: exomiser/running.md

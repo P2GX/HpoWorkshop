@@ -37,7 +37,7 @@ Create a project directory and download the files:
 ```bash
 wget https://data.monarchinitiative.org/exomiser/latest/exomiser-cli-14.0.0-distribution.zip
 
-# Download datasets (⚠️ ~80 GB total — this may take a long time!)
+# Download datasets (⚠️ ~40 GB total — this may take a long time!)
 wget https://data.monarchinitiative.org/exomiser/latest/2402_hg19.zip
 wget https://data.monarchinitiative.org/exomiser/latest/2402_phenotype.zip
 ```
@@ -105,4 +105,4 @@ usage: java -jar exomiser-cli-{build.version}.jar [...]
 
 
 
-**Next Module:** [Exomiser settings](settings.md){ .md-button .md-button--primary }
+**Next Module:** [Java](java.md){ .md-button .md-button--primary }

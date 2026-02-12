@@ -48,3 +48,5 @@ To prepare for the workshop, we recommend reading the following foundational pub
 
 !!! tip "More information about the HPO"
     Vist the [HPO Documentation site](https://obophenotype.github.io/human-phenotype-ontology/){:target="_blank" .md-button } for detailed information about many of the topics we will discuss in the workshop.
+
+**Next Module:** [Ontologies](ontology.md){ .md-button .md-button--primary }

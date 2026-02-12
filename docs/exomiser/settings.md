@@ -142,3 +142,4 @@ Typical flow:
       hiPhivePrioritiser: {runParams: 'mouse'}
     ]
     ```
+**Next Module:** [Running Exomiser with phenopacket](running.md){ .md-button .md-button--primary }
