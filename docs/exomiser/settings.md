@@ -92,11 +92,11 @@ Typical flow:
     analysisMode: PASS_ONLY
     inheritanceModes: {
       AUTOSOMAL_DOMINANT: 0.1,
+      AUTOSOMAL_RECESSIVE_HOM_ALT:  0.1,
       AUTOSOMAL_RECESSIVE_COMP_HET: 2.0,
-      AUTOSOMAL_RECESSIVE_HOM_ALT: 0.1,
       X_DOMINANT: 0.1,
-      X_RECESSIVE_COMP_HET: 2.0,
       X_RECESSIVE_HOM_ALT: 0.1,
+      X_RECESSIVE_COMP_HET: 2.0,
       MITOCHONDRIAL: 0.2
     }
 
@@ -114,7 +114,7 @@ Typical flow:
       GNOMAD_G_SAS
     ]
 
-    pathogenicitySources: [ REVEL, MVP ]
+    pathogenicitySources: [ REVEL, MVP, ALPHA_MISSENSE, SPLICE_AI ]
 
     steps: [
       failedVariantFilter: { },
@@ -139,7 +139,7 @@ Typical flow:
       pathogenicityFilter: {keepNonPathogenic: true},
       inheritanceFilter: {},
       omimPrioritiser: {},
-      hiPhivePrioritiser: {runParams: 'mouse'}
+      hiPhivePrioritiser: {}
     ]
     ```
 **Next Module:** [Running Exomiser with phenopacket](running.md){ .md-button .md-button--primary }

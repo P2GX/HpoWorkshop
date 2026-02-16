@@ -26,7 +26,7 @@ You will also need:
 - Variant data — choose **hg19** or **hg38**
 
 !!! tip "Workshop setup"
-    For this workshop we will use the **HG37** dataset because our example VCF file was made with this assembly.
+    For this workshop we will use the **HG19** dataset because our example VCF file was made with this assembly.
 
 ---
 
@@ -38,13 +38,26 @@ Create a project directory and download the files:
 wget https://data.monarchinitiative.org/exomiser/latest/exomiser-cli-14.0.0-distribution.zip
 
 # Download datasets (⚠️ ~40 GB total — this may take a long time!)
-wget https://data.monarchinitiative.org/exomiser/latest/2402_hg19.zip
-wget https://data.monarchinitiative.org/exomiser/latest/2402_phenotype.zip
+wget https://data.monarchinitiative.org/exomiser/latest/2406_hg19.zip
+wget https://data.monarchinitiative.org/exomiser/latest/2406_phenotype.zip
 ```
 
 !!! warning "Large download"
     The variant dataset is very large (~80 GB).  
     Ensure you have sufficient disk space and a stable internet connection.
+
+### Queen Mary University of London download links
+From Europe, it may be quicker to use these links, which will download identical files.
+
+[2406_hg19](https://g-879a9f.f5dc97.75bc.dn.glob.us/data/2406_hg19.zip)
+[2406_hg38](https://g-879a9f.f5dc97.75bc.dn.glob.us/data/2406_hg38.zip)
+[2406_phenotype](https://g-879a9f.f5dc97.75bc.dn.glob.us/data/2406_phenotype.zip)
+
+
+## Adjusting the versions
+The version (e.g., version <b>2406</b> in 2406_hg19.zip) can be adjusted as needed.
+There might need  to be some manual tweaking of the <tt>application.properties</tt> to select the correct exomiser.phenotype.data-version and exomiser.hg19.data-version.
+
 
 ---
 

@@ -53,6 +53,10 @@ You can follow the workshop sequentially or jump directly to a specific topic.
     If you would like to prepare in advance:
 
     - Read the [background articles](./introduction/reading.md){:target="_blank"}
+
+    There will be many activities in the workshop. Optionally, users can run Exomiser on their own laptops. If you would like to do this, please
+
+    - Install a [Java runtime environment](./exomiser/java.md)
     - Download the Exomiser [software and data files](./exomiser/cmdline.md)
 
       The data files are roughly **20 GB**, so please download them before
